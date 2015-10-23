@@ -2,7 +2,9 @@ paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
+timezone: Asia/Jakarta
 markdown: kramdown
+encoding: utf-8
 disqus: 
 google_analytics: UA-47290208-1
 

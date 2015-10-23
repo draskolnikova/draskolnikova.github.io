@@ -15,6 +15,7 @@
 	     {% else %}{{ d }}th,
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
+	   {{ page.date | date: "%H:%m" }}
 	 </span>
 	  <div class="article_body">
 	  {{ content }}
