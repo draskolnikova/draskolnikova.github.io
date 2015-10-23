@@ -7,6 +7,8 @@ markdown: kramdown
 encoding: utf-8
 disqus: 
 google_analytics: UA-47290208-1
+url: https://log.xtremenitro.org
+enforce_ssl: log.xtremenitro.org
 
 defaults:
   -
