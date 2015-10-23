@@ -8,6 +8,13 @@
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
 
+	<script type="text/javascript">
+	    if (window.location.protocol == "http:") {
+	        var restOfUrl = window.location.href.substr(5);
+	        window.location = "https:" + restOfUrl;
+	    }
+	</script>
+
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
