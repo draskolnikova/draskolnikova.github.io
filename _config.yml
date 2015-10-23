@@ -1,0 +1,28 @@
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: 
+google_analytics: UA-47290208-1
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: NitrouZ Personal Notes
+
+description: Another junkyard
+author:
+  name: Dewangga Alam
+  twitter: draskolnikova
+  linkedin: dewangga
+  bio: Father, Husband, and an Engineer!
+  email_md5: 62ff150ef4a0b0bc0c2f89db62a20685
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
