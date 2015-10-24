@@ -86,7 +86,7 @@ article .share .gplus:hover {
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
-.page-sidebar a:hover a:link a:visited a{
+.page-sidebar a.page-sidebar:hover a.page-sidebar:link a.page-sidebar:visited a.page-sidebar{
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 	text-decoration: none;
 	font-family: "Courier New", Courier, monospace;
