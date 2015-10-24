@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Who Am I?
+title: Siapa saya?
 permalink: /about-me/
 ---
 
-<h2>Siapa saya?</h2>
 Saya adalah Dewangga Alam. Saya bekerja sebagai Linux & Network Administrator kurang lebih sudah 6 tahun lebih dan masih berjalan sampai saat ini. Saya belajar dari banyak sumber (tentang <i>problem solving</i>, ketelitian, dan kesabaran untuk menghadapi masalah) dan saya harap, tulisan saya di [sini](https://log.xtremenitro.org) juga bisa membantu mereka yang juga sedang belajar.
 
 <h2>Punya background di dunia <i>technology</i>?</h2>
