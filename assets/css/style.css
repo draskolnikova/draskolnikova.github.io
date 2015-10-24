@@ -90,11 +90,11 @@ article .share .gplus:hover {
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
-hr {
+.hr-sidebar {
 color: #f00;
 background-color: #f00;
-height: 3px;
-width: 50%;
+height: 1px;
+width: 75%;
 }
 
 article{
