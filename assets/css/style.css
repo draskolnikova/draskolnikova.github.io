@@ -86,6 +86,10 @@ article .share .gplus:hover {
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
+.page-sidebar {
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
 article{
 	margin-bottom: 40px;
 }
