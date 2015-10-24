@@ -86,8 +86,9 @@ article .share .gplus:hover {
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
-.page-sidebar {
+.page-sidebar a:hover a:link a:visited a{
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	text-decoration: none;
 }
 
 .hr-sidebar {
