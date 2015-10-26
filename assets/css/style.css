@@ -145,10 +145,16 @@ article.home h4 a:hover {
 	color: #e74c3c;
 }
 
-.author .author-image {
+.author .author-image .related {
   float: left;
   margin-right: 20px;
 }
+
+.related-post {
+  color: #e74c3c;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
 
 footer {
 	padding-top: 15px;
