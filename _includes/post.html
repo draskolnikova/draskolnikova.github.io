@@ -6,6 +6,13 @@
 
 	<div class="col-sm-10">
 	 <span class="post-date">
+	   {% assign day = page.date | date: "%a" %}
+       {% case day %}
+       {% when "Tue" %}Tues
+       {% when "Thu" %}Thurs
+       {% else %}{{ day }}
+       {% endcase %}
+	   
 	   {% assign d = page.date | date: "%d" | plus:'0' %}
 	   {{ page.date | date: "%B" }} 
 	   {% case d %}
@@ -15,7 +22,7 @@
 	     {% else %}{{ d }}th,
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
-	   {{ page.date | date: "%H:%m" }}
+	   {{ page.date | date: "%HH:%mm" }}
 	 </span>
 	  <div class="article_body">
 	  {{ content }}
