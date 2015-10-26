@@ -15,4 +15,4 @@ Karena Github Pages sudah menggunakan SSL, jadi sekalian saya menggunakan konfig
 Berikut ini hasil uji coba menggunakan Cloudflare Universal SSL with HSTS + Github Pages.
 ![Quallys SSL Labs]({{ site.url }}/assets/draskolnikova/log.xtremenitro.org-ssl.jpg)
 
-Happy blogging with Github :)
+Happy blogging with Github :+1:
