@@ -11,7 +11,7 @@ url: https://log.xtremenitro.org
 enforce_ssl: log.xtremenitro.org
 gems:
   - jemoji
-  
+
 defaults:
   -
     scope:
