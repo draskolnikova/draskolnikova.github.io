@@ -17,11 +17,11 @@ Tapi, di [EL 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise
 
 ## Konfigurasi Static IP Address
 
-```
-$ nmcli c m <iface_name> ipv4.method manual ipv4.addr "192.168.1.2/24" 
-$ nmcli c m <iface_name> ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2" 
-$ nmcli c m <iface_name> connection.autoconnect "yes" 
-```
+`$ nmcli c m <iface_name> ipv4.method manual ipv4.addr "192.168.1.2/24"` 
+
+`$ nmcli c m <iface_name> ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2"`
+
+`$ nmcli c m <iface_name> connection.autoconnect "yes"`
 
 ## Konfigurasi DHCP IP Address
 
@@ -29,6 +29,6 @@ $ nmcli c m <iface_name> connection.autoconnect "yes"
 $ nmcli c m <iface_name> ipv4.method auto connection.autoconnect "yes"
 ```
 
-Kalau diperiksa lebih lanjut, file yang ada di `/etc/sysconfig/network-scripts/ifcfg-&lt;iface_name&gt;` hasilnya sudah pasti sama dengan konfigurasi di atas.
+Kalau diperiksa lebih lanjut, file yang ada di `/etc/sysconfig/network-scripts/ifcfg-<iface_name>` hasilnya sudah pasti sama dengan konfigurasi di atas.
 
 Welcome to Cent OS 7 :smile:
