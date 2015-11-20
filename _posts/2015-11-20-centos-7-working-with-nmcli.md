@@ -9,7 +9,7 @@ Bagi yang sudah terbiasa menggunakan *operating system* Cent OS 6, untuk migrasi
 
 Biasanya, untuk melakukan konfigurasi standar post instalasi linux server, hal yang pertama kali dilakukan adalah *network configuration*.
 
-Network configuration, hanya melakukan perubahan pada file yang berlokasi di `/etc/sysconfig/network-script/ifcfg-&lt;iface_name&gt;`
+Network configuration, hanya melakukan perubahan pada file yang berlokasi di `/etc/sysconfig/network-script/ifcfg-<iface_name>`
 
 Admin diwajibkan untuk menghafal beberapa syntax yang ada di dalamnya, seperti `IPADDR`, `PREFIX` dan beberapa parameter lainnya yang harus di rubah.
 
@@ -17,16 +17,16 @@ Tapi, di [EL 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise
 
 ## Konfigurasi Static IP Address
 
-```bash
-$ nmcli c m &lt;iface_name&gt; ipv4.method manual ipv4.addr "192.168.1.2/24" ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2" connection.autoconnect "yes" 
+```
+$ nmcli c m <iface_name> ipv4.method manual ipv4.addr "192.168.1.2/24" ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2" connection.autoconnect "yes" 
 ```
 
 ## Konfigurasi DHCP IP Address
 
-```bash
-$ nmcli c m &lt;iface_name&gt; ipv4.method auto connection.autoconnect "yes"
+```
+$ nmcli c m <iface_name> ipv4.method auto connection.autoconnect "yes"
 ```
 
-Kalau diperiksa lebih lanjut, file yang ada di `/etc/sysconfig/network-scripts/ifcfg-&lt;iface_name&gt;` hasilnya sudah pasti sama dengan konfigurasi di atas.
+Kalau diperiksa lebih lanjut, file yang ada di `/etc/sysconfig/network-scripts/ifcfg-<iface_name>` hasilnya sudah pasti sama dengan konfigurasi di atas.
 
 Welcome to Cent OS 7 :smile:
