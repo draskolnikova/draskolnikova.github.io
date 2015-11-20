@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cent OS 7: Working with nmcli
+title: Cent OS 7, Working with nmcli
 categories: [work]
 tags: [work, personal]
 ---
