@@ -18,7 +18,8 @@ Tapi, di [EL 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise
 ## Konfigurasi Static IP Address
 
 ```
-$ nmcli c m &lt;iface_name&gt; ipv4.method manual ipv4.addr "192.168.1.2/24" \ ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2" connection.autoconnect "yes" 
+$ nmcli c m &lt;iface_name&gt; ipv4.method manual ipv4.addr "192.168.1.2/24" 
+ipv4.dns "8.8.8.8,8.8.4.4" ipv4.gateway "192.168.1.2" connection.autoconnect "yes" 
 ```
 
 ## Konfigurasi DHCP IP Address
