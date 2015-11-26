@@ -21,9 +21,9 @@ Saat ini saya ada project untuk konfigurasi *Load Balancer* dengan metode *Direc
 <script src="https://gist.github.com/draskolnikova/8ccac12148ca9eea665d.js"></script>
 
 *Testbed* kali ini saya menggunakan Cent OS 7, kebutuhannya *packages*-nya adalah `keepalived`.
-```
+{% highlight bash %}
 root> yum install -y keepalived
-```
+{% endhighlight %}
 
 Konfigurasi yang saya gunakan adalah sebagai berikut :
 
@@ -32,13 +32,13 @@ Konfigurasi yang saya gunakan adalah sebagai berikut :
 Silakan disesuaikan dengan kebutuhan pada saat deployment, terutama pada `<public_ip_vip>`, `<pub_interface_handle_rip_vip>` dan `<public_real_ip_address>`.
 
 Setelah perubahan selesai dilakukan, silakan start `keepalived`.
-```
+{% highlight bash %}
 root> systemctl start keepalived
-```
+{% endhighlight %}
 
 Ketika `keepalived` sudah running dengan normal, seharusnya pada log muncul notifikasi seperti ini:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 Nov 26 00:21:08 loadbalancer.xtremenitro.org Keepalived[15916]: Starting Keepalived v1.2.13 (03/06,2015)
 Nov 26 00:21:08 loadbalancer.xtremenitro.org Keepalived[15916]: Remove a zombie pid file /var/run/keepalived.pid
 Nov 26 00:21:08 loadbalancer.xtremenitro.org Keepalived[15916]: Remove a zombie pid file /var/run/vrrp.pid
@@ -78,7 +78,6 @@ Silakan tambahkan parameter `net.ipv4.ip_nonlocal_bind` dengan nilai `1` pada sy
 
 ## Real Server
 ### Kernel Tuning
-
 Kernel tuning untuk ignore arp di sisi webserver, karena kita akan pakai interface `loopback`, maka kita akan setup individual arp ignore parameter di interface tersebut.
 
 {% highlight bash linenos %}
@@ -90,15 +89,15 @@ net.ipv4.conf.all.arp_announce = 2
 {% endhighlight %}
 
 Tambahkan vIP pada *loopback interface* di masing-masing *real server*.
-```
+{% highlight bash %}
 root> ifconfig lo:0 192.168.100.20 netmask 255.255.255.255
-```
+{% endhighlight %}
 
 ### Interface Configuration
 
 Supaya interface tersebut berjalan pada saat mesin di *boot-up*, maka tambahkan file pada `/etc/sysconfig/network-scripts/ifcfg-lo:0`, isinya sebagai berikut :
 
-{% highlight bash linenos %}
+{% highlight bash %}
 DEVICE=lo:0
 IPADDR=192.168.100.20
 NETMASK=255.255.255.255
@@ -107,9 +106,9 @@ NAME=loopback
 {% endhighlight %}
 
 Restart network service untuk memastikan script tersebut berjalan dengan normal.
-```
+{% highlight bash %}
 root> systemctl restart network.service
-```
+{% endhighlight %}
 
 Dari konfigurasi di atas, ada beberapa pro dan kontra mengenai metode Direct Routing atau DSR ini. Seperti yang di tuliskan oleh [Big-IP](https://devcentral.f5.com/articles/the-disadvantages-of-dsr-direct-server-return), akan ada effort lebih untuk melakukan maintenance backend, karena load balancer di sini hanya bertugas untuk melemparkan traffic, bukan melakukan terminasi traffic.
 
