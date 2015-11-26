@@ -18,25 +18,7 @@ Saat ini saya ada project untuk konfigurasi *Load Balancer* dengan metode *Direc
 |192.168.100.4  |  rIP   | WS2      |
 |192.168.100.5  |  rIP   | WSx      |
 
-
-```
-      Cool Guy   
-          O     +----------+
-    +--> /|\ -> | Internet |
-    |    / \    +----------+                              
-    |                 | 
-    |                 v
-    |           +----------+   +-- vip 192.168.100.20
-    |           | LVS + LB | --+
-    |           +----------+   +-- rip 192.168.100.2
-    |                 |
-    |                 v
-    |   +-----+    +-----+    +-----+   +-- vip 192.168.100.20
-    |   | WS1 |    | WS2 |    | WSx | --+
-    |   +-----+    +-----+    +-----+   +-- rip 192.168.100.{3,4,x}
-    |      |          |          |
-    -------+----------+----------+     
-```
+<script src="https://gist.github.com/draskolnikova/8ccac12148ca9eea665d.js"></script>
 
 *Testbed* kali ini saya menggunakan Cent OS 7, kebutuhannya *packages*-nya adalah `keepalived`.
 ```
