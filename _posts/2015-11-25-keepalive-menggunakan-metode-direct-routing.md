@@ -77,7 +77,9 @@ Nov 26 00:21:15 loadbalancer.xtremenitro.org Keepalived_vrrp[15919]: VRRP_Instan
 Silakan tambahkan parameter `net.ipv4.ip_nonlocal_bind` dengan nilai `1` pada sysctl.
 
 ## Real Server
+
 ### Kernel Tuning
+
 Kernel tuning untuk ignore arp di sisi webserver, karena kita akan pakai interface `loopback`, maka kita akan setup individual arp ignore parameter di interface tersebut.
 
 {% highlight bash linenos %}
