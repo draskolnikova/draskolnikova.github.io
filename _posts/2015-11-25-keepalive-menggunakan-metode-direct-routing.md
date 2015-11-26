@@ -41,7 +41,6 @@ Ketika `keepalived` sudah running dengan normal, seharusnya pada log muncul noti
 Silakan tambahkan parameter `net.ipv4.ip_nonlocal_bind` dengan nilai `1` pada sysctl.
 
 ## Real Server
-
 ### Kernel Tuning
 
 Kernel tuning untuk ignore arp di sisi webserver, karena kita akan pakai interface `loopback`, maka kita akan setup individual arp ignore parameter di interface tersebut.
@@ -56,7 +55,6 @@ net.ipv4.conf.all.arp_ignore = 1
 net.ipv4.conf.lo.arp_announce = 2
 
 net.ipv4.conf.all.arp_announce = 2
-
 ```
 
 Tambahkan vIP pada *loopback interface* di masing-masing *real server*.
