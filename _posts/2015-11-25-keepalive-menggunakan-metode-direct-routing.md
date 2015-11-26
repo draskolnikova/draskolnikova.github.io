@@ -82,7 +82,7 @@ Silakan tambahkan parameter `net.ipv4.ip_nonlocal_bind` dengan nilai `1` pada sy
 
 Kernel tuning untuk ignore arp di sisi webserver, karena kita akan pakai interface `loopback`, maka kita akan setup individual arp ignore parameter di interface tersebut.
 
-{% highlight bash linenos %}
+{% highlight bash %}
 root> vim /usr/lib/sysctl.d/90-arp.conf
 net.ipv4.conf.lo.arp_ignore = 1
 net.ipv4.conf.all.arp_ignore = 1
