@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NGINX Amplify - Monitoring & Config Assistance Platform
+title: NGINX Amplify - Monitoring & Config Assistance
 categories: [work]
 tags: [work, linux, webserver]
 ---
