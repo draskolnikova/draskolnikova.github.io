@@ -42,14 +42,19 @@ Static files (eg. jpeg, jpg, png, webp, gif, etc) aren't optimized (maybe, not y
 ### Test Method
 
 gzip compression level: 9/9 (default 1)
+
 brotli compression level: 9/11 (default 6)
 
 Default Landing Pages Nginx (612bytes)
+
 with gzip:   `518 bytes`
+
 with brotli: `426 bytes`
 
 Dummy json file (9,5KBytes)
+
 with gzip:   `2,9Kbytes` 
+
 with brotli: `2,8Kbytes`
 
 ## Result
