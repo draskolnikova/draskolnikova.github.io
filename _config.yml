@@ -11,6 +11,7 @@ url: https://log.xtremenitro.org
 enforce_ssl: log.xtremenitro.org
 gems:
   - jemoji
+  - jekyll-time-to-read
 
 defaults:
   -
@@ -23,12 +24,14 @@ description: Another junkyard
 author:
   name: Dewangga Alam
   twitter: draskolnikova
-  linkedin: dewangga
   bio: Father, Husband, and an Engineer!
   email_md5: 62ff150ef4a0b0bc0c2f89db62a20685
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+
+gems:
+  - jekyll-paginate
 
 BASE_PATH:
