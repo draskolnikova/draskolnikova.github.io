@@ -26,7 +26,7 @@ Static files (eg. jpeg, jpg, png, webp, gif, etc) aren't optimized (maybe, not y
 ### Server Software
 
 - Linux Cent OS 7 x86_64
-- Nginx 1.11.4 + [ngx_brotli module](https://github.com/google/ngx_brotli)
+- Nginx 1.11.4 + [ngx_brotli module](https://github.com/google/ngx_brotli) + http2 + openssl-1.0.2j (ALPN)
 - [google/brotli](https://github.com/google/brotli) library
 
 ### Client Hardware
@@ -41,7 +41,7 @@ Static files (eg. jpeg, jpg, png, webp, gif, etc) aren't optimized (maybe, not y
 
 ### Test Method
 
-gzip compression level: 9/9 (default 1)
+gzip compression level: 6/9 (default 1)
 
 brotli compression level: 9/11 (default 6)
 
@@ -49,16 +49,24 @@ Default Landing Pages Nginx (612bytes)
 
 with gzip:   `518 bytes`
 
-with brotli: `426 bytes`
+![default landing page gzip]({{ site.url }}/assets/draskolnikova/2016-10-09-brotli-16.png)
+
+with brotli: `425 bytes`
+
+![default landing page brotli]({{ site.url }}/assets/draskolnikova/2016-10-09-brotli-11.png)
 
 Dummy json file (9,5KBytes)
 
-with gzip:   `2,9Kbytes` 
+with gzip:   `3,0Kbytes` 
+
+![json file gzip]({{ site.url }}/assets/draskolnikova/2016-10-09-brotli-13.png)
 
 with brotli: `2,8Kbytes`
 
+![json file brotli]({{ site.url }}/assets/draskolnikova/2016-10-09-brotli-12.png)
+
 ## Result
 
-Brotli compression do better than gzip (on max compression level), but since brotli isn't yet RFC Standards (still draft), I would not recommend deploy it on production state.
+Brotli compression do better than gzip (on max compression level), but since brotli isn't yet RFC Standards (still draft), I would not recommend deploy it on production state. Unfortunately, brotli won't work on HTTP connection (it means that you need TLS configuration on your webserver).
 
 Interesting to join the projects? :-)
