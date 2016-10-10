@@ -67,6 +67,6 @@ with brotli: `2,8Kbytes`
 
 ## Result
 
-Brotli compression do better than gzip (on max compression level), but since brotli isn't yet RFC Standards (still draft), I would not recommend deploy it on production state. Unfortunately, brotli won't work on HTTP connection (it means that you need TLS configuration on your webserver).
+Brotli compression do better than gzip (on max compression level), but since brotli isn't yet RFC Standards (still draft), I would not recommend deploy it on production state (but if you know and can handle the risk, it's worthed). Unfortunately, brotli won't work on HTTP connection (it means that you need TLS configuration on your webserver).
 
 Interesting to join the projects? :-)
