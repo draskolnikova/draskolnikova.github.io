@@ -74,7 +74,9 @@ Brotli compression do better than gzip (on max compression level), but since bro
 You can use pre-compiled library for Cent OS 7 to install `ngx_brotli` module for nginx.
 
 [libbrotli-devel-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm]({{ site.url }}/assets/draskolnikova/linux-x86_64/brotli-library/libbrotli-devel-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm)
+
 [libbrotlidec1-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm]({{ site.url }}assets/draskolnikova/linux-x86_64/brotli-library/libbrotlidec1-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm)
+
 [libbrotlienc1-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm]({{ site.url }}/assets/draskolnikova/linux-x86_64/brotli-library/libbrotlienc1-1.0-1.git5ce9bf1.el7.centos.x86_64.rpm)
 
 Interesting to join the projects? :-)
