@@ -7,7 +7,7 @@ tags: [work]
 
 Standard and default images create using [virt-manager](https://virt-manager.org/) on linux, automatically full allocating specified disk size to host. To avoid un-usable disk space, you should avoid choosing default images created by virt-manager. 
 
-![Creating VM's disk using Virt Manager]({{ site.url }}/assets/draskolnikova/2016-10-12-01.png)
+->![Creating VM's disk using Virt Manager]({{ site.url }}/assets/draskolnikova/2016-10-12-01.png)<-
 
 To create growing images files for VM's, I choose [qcow2](http://www.linux-kvm.org/page/Qcow2). Why growing images? To ensure the host only allocated how much diskspace to harddrive (fill-as-you-go), not how big the disk was allocated. For example :
 
@@ -39,6 +39,6 @@ $ ls -lah phantom01.xtremenitro.org-lvm-f.qcow2
 
 And it will save your disk space as much as you want, and will growth as the data growth. Then after creating the disk file, you need to load it on virt-manager by choosing `Select or create custom storage`.
 
-![Select or create custom storage]({{ site.url }}/assets/draskolnikova/2016-10-12-02.png)
+->![Select or create custom storage]({{ site.url }}/assets/draskolnikova/2016-10-12-02.png)<-
 
 Done, now you have optimized qcow2 files and growth as the data growth.
