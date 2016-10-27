@@ -31,7 +31,7 @@ For the example, we will split IPv6 Prefix `2404:6800::/32` into `/48`, then fou
  16   16   16   16   16   16   16   16   -> 128-bit total (from 16-bit x 8 block)
 ```
 
-> Please keep in mind, IPv6 is a hexadecimal. So it the number will start counting from `0` to `f`
+> Please keep in mind, IPv6 is a hexadecimal. So it will start counting from `0` to `f`
 >
 > Then, in every member in a group(s) have 4-bit address [`0`,`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`a`,`b`,`c`,`d`,`e`,`f`]
 
