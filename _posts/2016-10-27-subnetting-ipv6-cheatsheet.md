@@ -13,10 +13,13 @@ The fundamental of TCP/IP is how to correctly split the subnet and know the rout
 ## Subnetting
 
 Prefix IPv6: `2404:6800::/32` (Google IPv6 Block Asia Pacific)
+
 We must know that IPv6 have 128-bit address, separated by coloumn (`:`) and have 8 (eight) groups, then IPv4 only have 32-bit address, separated by dots (`.`) and only have 4 (four) groups.
 
 So, if the rest IPv6 have 128-bit address, then each group should have 16-bit.
+
 Shortest IPv6 Prefix: `2404:6800::/32` 128-bit addresses
+
 Longest IPv6 Prefix: `2404:6800:0000:0000:0000:0000:0000:0000` 128-bit addresses
 
 Then if I want split it into small subnets (eg. `/48`), how? And which first prefix should be?
@@ -29,6 +32,7 @@ For the example, we will split IPv6 Prefix `2404:6800::/32` into `/48`, then fou
 ```
 
 > Please keep in mind, IPv6 is a hexadecimal. So it the number will start counting from `0` to `f`
+>
 > Then, in every member in a group(s) have 4-bit address [`0`,`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`a`,`b`,`c`,`d`,`e`,`f`]
 
 How we found that 48-bit address from `2404:6800::/32` ?
@@ -53,7 +57,9 @@ So we must find the 48th bit from `2404:6800::/32`, then we need 16-bit left.
 Voila! We've found the 48th bit. The 48th bit are on third group, and first IPv6 is `2404:6800:0::/48` on `/48` prefix.
 
 Then another case, how we found `/33` prefix? You can use the referrence [diagram] (#diagram) above and let's find out.
+
 IPv6 on /32 Subnet: 2404:6800:0000:0000:0000:0000:0000:0000
+
 IPv6 on /33 Subnet: 2404:6800:`0`000:0000:0000:0000:0000:0000
 
 See the marked zero `0` on `/33` subnet, it's the hint to find the subnet, and crosscheck with the [diagram](#diagram). So the `/33` prefix should be `2404:6800:0::/33` and `2404:6800:8::/33`.
