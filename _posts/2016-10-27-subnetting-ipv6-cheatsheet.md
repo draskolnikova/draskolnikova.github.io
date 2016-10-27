@@ -51,7 +51,9 @@ So we must find the 48th bit from `2404:6800::/32`, then we need 16-bit left.
 ```
 
 `2404` on first group, have first 16-bit address.
+
 `6800` on second group, have second 16-bit address, so total bit are 32-bit right now.
+
 `0000` on third group, have third 16-bit address, so total bit are 48-bit right now.
 
 Voila! We've found the 48th bit. The 48th bit are on third group, and first IPv6 is `2404:6800:0::/48` on `/48` prefix.
