@@ -58,7 +58,7 @@ So we must find the 48th bit from `2404:6800::/32`, then we need 16-bit left.
 
 Voila! We've found the 48th bit. The 48th bit are on third group, and first IPv6 is `2404:6800:0::/48` on `/48` prefix.
 
-Then another case, how we found `/33` prefix? You can use the referrence [diagram] (#diagram) above and let's find out.
+Then another case, how we found `/33` prefix? You can use the referrence [diagram](#diagram) above and let's find out.
 
 IPv6 on /32 Subnet: 2404:6800:0000:0000:0000:0000:0000:0000
 
