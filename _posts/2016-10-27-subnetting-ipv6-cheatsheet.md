@@ -14,7 +14,7 @@ The fundamental of TCP/IP is how to correctly split the subnet and know the rout
 
 Prefix IPv6: `2404:6800::/32` (Google IPv6 Block Asia Pacific)
 
-We must know that IPv6 have 128-bit address, separated by coloumn (`:`) and have 8 (eight) groups, then IPv4 only have 32-bit address, separated by dots (`.`) and only have 4 (four) groups.
+We must know that IPv6 have 128-bit address, separated by colon (`:`) and have 8 (eight) groups, then IPv4 only have 32-bit address, separated by dots (`.`) and only have 4 (four) groups.
 
 So, if the rest IPv6 have 128-bit address, then each group should have 16-bit.
 
