@@ -5,9 +5,9 @@ categories: [work]
 tags: [work, networking] 
 ---
 
-Since IPv6 hype was launch several years ago, many people (incl. me) were struggling how to split IPv6 subnet correctly. Honestly, I wasn't network engineer, but learning network fundamental is not a big deal (especially IPv6, nowadays, it's a new protocol!). Since it was launch at 1990 (former IPNG), based on APNIC Labs Survey, the adoption of native IPv6 [still low] (https://stats.labs.apnic.net/ipv6/).
+Since IPv6 hype was launch several years ago, many people (incl. me) were struggling how to split IPv6 subnet correctly. Honestly, I wasn't network engineer, but learning network fundamental is not a big deal (especially IPv6, nowadays, it's a new protocol!). Since it was launch at 1990 (former IPNG), based on APNIC Labs Survey, the adoption of native IPv6 [still low](https://stats.labs.apnic.net/ipv6/).
 
-The fundamental of TCP/IP is how to correctly split the subnet and know the routing works. At July 25th, I was attend the [Advance IPv6 Routing Workshop by APNIC] (https://www.idnog.or.id/en/workshop/3) and learn with many senior engineers right there. The most interesting part is, I know how to split IPv6 subnet correctly without using any IPv6 calculator. I'll write down how to do it for self notes, and I hope it is usefull for you too.
+The fundamental of TCP/IP is how to correctly split the subnet and know the routing works. At July 25th, I was attend the [Advance IPv6 Routing Workshop by APNIC](https://www.idnog.or.id/en/workshop/3) and learn with many senior engineers right there. The most interesting part is, I know how to split IPv6 subnet correctly without using any IPv6 calculator. I'll write down how to do it for self notes, and I hope it is usefull for you too.
 
 
 ## Subnetting
