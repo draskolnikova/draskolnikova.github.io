@@ -39,7 +39,7 @@ It's the key to save your resource, using Amazon Route53, and the feature of Geo
 
 ### VPS on Indonesia
 
-The last one, to serve our visitor came from Indonesia, we need at least two VPS with 2 vCPU & 2 GB of RAM. Why we need this? We need lower latency to serve Indonesian Visitor. 
+The last one, to serve our visitor came from Indonesia, we need at least two VPS with 2 vCPU & 2 GB of RAM. Why we need this? We need lower latency to serve Indonesian Visitor. You can go through CloudKilat using KilatVM size M (this is non-paid article, seriously).
 
 ## Total Cost
 
