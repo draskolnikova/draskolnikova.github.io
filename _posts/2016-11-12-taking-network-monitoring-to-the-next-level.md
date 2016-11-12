@@ -11,6 +11,6 @@ Currently, I host 2 probes (the device from RIPE is called probe), 1 public prob
 
 From that measurement, I can track down the history of my network route, whenever it was down or reroute to another link. It's help me so much to maintain the SLA from upstream. The probe have another capability to monitoring, available feature is `PING`, `TRACEROUTE`, `DNS`, `SSL`, `HTTP`, and `NTP`. And you can select specific probe(s) to fulfill your monitoring needs.
 
-This project is FREE\*, you only need to host the probe online. The atlas probe includes: 1xTP-Link MR3020 (Modified F/W), 1xUTP Cable, 1xMicroUSB Cable, 1x8GB USB Disk. Interest to join the project? Feel free to reach me out on twitter, or you can contact directly to Atlas Probe Ambasaddor at Indonesia using [Twitter](https://twitter.com/budiwijaya) or [Facebook](https://www.facebook.com/budiwijaya) (Mr. Budiwijaya).
+This project is FREE\*, you only need to host the probe online. The atlas probe includes: 1xTP-Link MR3020 (Modified F/W), 1xUTP Cable, 1xMicroUSB Cable, 1x8GB USB Disk. Interest to join the project? Feel free to reach me out on twitter, or you can directly contact to Atlas Probe Ambasaddor at Indonesia using [Twitter](https://twitter.com/budiwijaya) or [Facebook](https://www.facebook.com/budiwijaya) (Mr. Budiwijaya).
 
 Happy probing!
