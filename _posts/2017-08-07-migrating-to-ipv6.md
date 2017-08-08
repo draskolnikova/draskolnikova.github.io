@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hot to deploy and migrating to IPv6
+title: How to deploy and migrating to IPv6
 categories: [work]
 tags: [work, networking, ipv6] 
 ---
