@@ -5,7 +5,7 @@ categories: [work]
 tags: [mikrotik, routeros, bgp, rtbh] 
 ---
 
-Couple weeks ago, there was [memcrashed exist in the wild](https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/) and it's hurt my router so hard. It was attack my router till 1GBps, fortunately my router doesn't hung. LoL.
+Couple weeks ago, there was [memcrashed exist in the wild](https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/) and it's hurt my router so hard. It was attack my router up to 1GBps, fortunately my router doesn't hung. LoL.
 
 ![Memcrashed]({{ site.url }}/assets/draskolnikova/memcrashed.png)
 
