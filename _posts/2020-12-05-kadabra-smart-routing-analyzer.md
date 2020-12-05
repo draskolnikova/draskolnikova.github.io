@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KADABRA: IDNIC Smart Routing Analyzer
+title: KADABRA - IDNIC Smart Routing Analyzer
 categories: [work]
 tags: [bird2, vyos, kadabra, idnic, indonesia] 
 ---
