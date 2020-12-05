@@ -7,6 +7,8 @@ tags: [bird2, vyos, kadabra, idnic, indonesia]
 
 It's been 2 years ago I've updated my blog :( But thanks for anyone who's still reading this dead blog (lol). This post will tell about my latest project in last 2-3 year that involved many people and I hope useful to other people too.
 
+![IDNIC Kadabra]({{ site.url }}/assets/draskolnikova/kadabra-logo-transparent.png#center)
+
 Today, I'd like to write about my latest projects with [IDNIC](https://idnic.net/) called [KADABRA](https://idnic.net/blog/detail/resmi-kadabra-dapat-diakses-oleh-pengguna-publik/MTIx). KADABRA is smart routing analyzer platform and helps IDNIC or network administrator to analyze internet routing table, especially in Indonesia.
 
 KADABRA v1 built at 2018 in collaboration with RIPE Atlas, [Bukalapak](https://www.bukalapak.com) and [IDNIC-APJII as sponsor](https://atlas.ripe.net/get-involved/community/#!sponsors). You can read the [paper about first KADABRA release](https://www.slideshare.net/draskolnikova/distributed-measurements-as-transparency). It's talk about transparency and simple network mitigation using traceroute and ping only. And we faced so many problems because of RIPE Atlas framework limitation and we didn't have any control access into RIPE backends.

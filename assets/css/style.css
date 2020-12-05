@@ -183,3 +183,13 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
