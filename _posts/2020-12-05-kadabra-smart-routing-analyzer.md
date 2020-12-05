@@ -63,6 +63,7 @@ Special thanks to:
 - Chief of IDNIC - Mr. Adi Kusuma
 - Chief of APJII - Mr. Jamalul Izza
 - Chief of PT. APIK Media Inovasi - Mr. Azhari Ahmad
+
 ... and all people behind this project, especially it's you! Yes you!
 
 If you have any question or feature request regarding KADABRA, you can send an email to abra [at] kadabra [dot] id or you can directly mention me at twitter [@draskolnikova](https://twitter.com/draskolnikova)
