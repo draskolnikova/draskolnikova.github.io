@@ -65,6 +65,7 @@ Special thanks to:
 - Chief of IDNIC - Mr. Adi Kusuma
 - Chief of APJII - Mr. Jamalul Izza
 - Chief of PT. APIK Media Inovasi - Mr. Azhari Ahmad
+- Indah Yuliani - KADABRA Logo & Design
 
 ... and all people behind this project, especially it's you! Yes you!
 
