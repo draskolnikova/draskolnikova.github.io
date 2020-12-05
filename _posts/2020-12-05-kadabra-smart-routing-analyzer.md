@@ -5,7 +5,7 @@ categories: [work]
 tags: [bird2, vyos, kadabra, idnic, indonesia] 
 ---
 
-It's been 2 years ago I've updated my blog :( But thanks for anyone who's still reading this dead blog (lol).
+It's been 2 years ago I've updated my blog :( But thanks for anyone who's still reading this dead blog (lol). This post will tell about my latest project in last 2-3 year that involved many people and I hope useful to other people too.
 
 Today, I'd like to write about my latest projects with [IDNIC](https://idnic.net/) called [KADABRA](https://idnic.net/blog/detail/resmi-kadabra-dapat-diakses-oleh-pengguna-publik/MTIx). KADABRA is smart routing analyzer platform and helps IDNIC or network administrator to analyze internet routing table, especially in Indonesia.
 
@@ -55,10 +55,14 @@ People behind KADABRA is :
 - Indra Saputra as Senior Backend Engineer
 - Fahri Ahmad Fadil as Application Engineer
 - Lufti Rahadian as Senior System & Network Engineer
-
-And special thanks to :
 - Abdul Basit as Senior Database Architect
 - Achmad Reyhan as Network Engineer Support
 - Adi Nugroho as System Engineer Support
+
+Special thanks to:
+- Chief of IDNIC - Mr. Adi Kusuma
+- Chief of APJII - Mr. Jamalul Izza
+- Chief of PT. APIK Media Inovasi - Mr. Azhari Ahmad
+... and all people behind this project, especially it's you! Yes you!
 
 If you have any question or feature request regarding KADABRA, you can send an email to abra [at] kadabra [dot] id or you can directly mention me at twitter [@draskolnikova](https://twitter.com/draskolnikova)
