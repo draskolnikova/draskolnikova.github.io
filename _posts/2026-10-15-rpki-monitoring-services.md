@@ -63,19 +63,7 @@ That's why the platform offers several plans:
 
 All plans include daily monitoring and email notifications. Live Probes are available from Commercial S, while API access is available with Commercial L and Enterprise. Other features depend on the active plan configuration.
 
-The idea is to keep things accessible for people who only need basic monitoring, while providing options for networks with more demanding requirements.
-
-| Feature | Free | Commercial S | Commercial M | Commercial L | Enterprise |
-|---|---:|---:|---:|---:|---:|
-| Monitored prefixes | 2 prefixes per email | 4 prefixes per email | 16 prefixes per email | 32 prefixes per email | Custom limit per agreement |
-| Daily monitoring | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Email notifications | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Live Probes | — | ✓ | ✓ | ✓ | ✓ |
-| Monitoring cycle | Every 24 hours | Every 12 hours | Every 8 hours | Every 4 hours | Custom schedule |
-| Custom reports | — | — | ✓ | ✓ | ✓ |
-| API access | — | — | — | ✓ | ✓ |
-| Monitoring history | — | ✓ | ✓ | ✓ | ✓ |
-| Price | Free | Contact us | Contact us | Contact us | Contact us |
+The idea is to keep things accessible for people who only need basic monitoring, while providing options for networks with more demanding requirements. For details plans and features, please visit [RPKI Monitoring plans](https://rpki.apik.net.id).
 
 ## Yes, there's a free plan for the Internet community
 
