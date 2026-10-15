@@ -63,7 +63,7 @@ That's why the platform offers several plans:
 
 All plans include daily monitoring and email notifications. Live Probes are available from Commercial S, while API access is available with Commercial L and Enterprise. Other features depend on the active plan configuration.
 
-The idea is to keep things accessible for people who only need basic monitoring, while providing options for networks with more demanding requirements. For details plans and features, please visit [RPKI Monitoring plans](https://rpki.apik.net.id).
+The idea is to keep things accessible for people who only need basic monitoring, while providing options for networks with more demanding requirements. For details plans and features, please visit [RPKI Monitoring plans](https://rpki.apik.net.id/plans).
 
 ## Yes, there's a free plan for the Internet community
 
